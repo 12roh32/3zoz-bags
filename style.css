@@ -1,0 +1,134 @@
+/* RESET */
+body {
+  margin: 0;
+  background-color: white;
+}
+
+/* LOGO */
+.logo {
+  width: 100px;
+}
+
+/* HEADER */
+.header {
+background-color:#87cefa ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  border-radius: 0 0 20px 20px;
+  height: 50vh;
+  
+}
+
+.header-links a:hover {
+  background-color: #ee007b;
+  border-radius: 15px;
+}
+
+/* BUTTON */
+.btn {
+  background-color: #ee007b;
+  color: white;
+  border: 0;
+  border-radius: 40px;
+  padding: 10px 15px;
+}
+
+.btn:hover {
+  background-color: #ee007b;
+}
+
+/* TRENDING */
+.trendingn-container {
+  padding: 30px 50px;
+}
+
+.trendingn-container span {
+  max-width: 100%;
+  color: #87cefa;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+.trending-Headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* CARDS */
+.trending-cards {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  max-width: 100%;
+  background-color: #eeeeee;
+  border-radius: 40px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.card-info img {
+  width: 50px;
+}
+
+.card .thumb {
+  border-radius: 20px 20px 0 0;
+
+}
+
+/* TOP GAMES */
+.top-games {
+  padding: 50px 30px;
+}
+
+.top-games span {
+  color: #87cefa;
+  font-size: 20px;
+}
+
+.trending-games {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 📱 MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+  .header {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .landing-page {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .landing-page-left {
+    width: 100%;
+  }
+
+  .landing-page-main-image img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .trending-cards {
+    justify-content: center;
+  }
+
+}
